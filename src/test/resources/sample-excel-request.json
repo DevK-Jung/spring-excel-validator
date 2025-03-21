@@ -1,0 +1,54 @@
+{
+  "list": [
+    {
+      "username": "john_doe",
+      "email": "john.doe@example.com",
+      "birthdate": "1990-05-10"
+    },
+    {
+      "username": "jane_smith",
+      "email": "jane.smith@example.com",
+      "birthdate": "1985-12-01"
+    },
+    {
+      "username": "",
+      "email": "blank.username@example.com",
+      "birthdate": "1991-07-21"
+    },
+    {
+      "username": "invalid_email",
+      "email": "not-an-email",
+      "birthdate": "1992-03-15"
+    },
+    {
+      "username": "missing_birth",
+      "email": "mb@example.com",
+      "birthdate": ""
+    },
+    {
+      "username": "alice",
+      "email": "alice@example.com",
+      "birthdate": "1999-08-08"
+    },
+    {
+      "username": "bob",
+      "email": "bob_1992@example.com",
+      "birthdate": "1992-11-30"
+    },
+    {
+      "username": "charlie",
+      "email": "charlie@example.com",
+      "birthdate": "2000-01-01"
+    },
+    {
+      "username": "diana",
+      "email": "diana.k@example.com",
+      "birthdate": "1988-09-15"
+    },
+    {
+      "username": "edward",
+      "email": "edward.l@example.com",
+      "birthdate": "1993-06-25"
+    }
+  ]
+}
