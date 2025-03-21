@@ -167,7 +167,7 @@ src/test/resources/sample-excel-request.json
 ---
 
 ## 작성자
-김정현 (@DevK-Jung)
+김정현 ([@DevK-Jung](https://github.com/DevK-Jung))
 
 ---
 
