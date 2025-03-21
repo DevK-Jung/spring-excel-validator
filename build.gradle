@@ -25,6 +25,11 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // Excel
+    implementation 'org.apache.poi:poi:5.2.3'           // HSSF - Excel 97~2003 (.xls)
+    implementation 'org.apache.poi:poi-ooxml:5.2.3'     // XSSF - Excel 2007+ (.xlsx)
+
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
