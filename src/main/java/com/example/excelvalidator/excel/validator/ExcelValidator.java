@@ -3,6 +3,7 @@ package com.example.excelvalidator.excel.validator;
 import com.example.excelvalidator.core.exceptions.ExcelValidateException;
 import com.example.excelvalidator.excel.validator.vo.ExcelErrorVo;
 import lombok.experimental.UtilityClass;
+import org.springframework.util.CollectionUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,7 +33,8 @@ public class ExcelValidator {
             T row = rows.get(i);
             int rowNumber = i + 1;
             List<ExcelErrorVo> rowErrors = validator.validate(row, rowNumber);
-            errors.addAll(rowErrors);
+            
+            if (!CollectionUtils.isEmpty(rowErrors)) errors.addAll(rowErrors);
         }
 
         if (!errors.isEmpty())
